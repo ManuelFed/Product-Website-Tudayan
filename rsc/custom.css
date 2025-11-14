@@ -1,0 +1,49 @@
+/* Base font for the texts */
+* {
+        font-family: monospace;
+}
+
+.nav-hover:hover {
+    /* Hover style for general nav links */
+    color: orange;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+.nav-hover-poco:hover {
+    /* Highlight style for POCO menu item */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: orange;
+    font-weight: bolder;
+}
+
+.nav-hover-special:hover {
+    color: orange;
+}
+
+.under-line {
+    /* Utility to underline a link using brand color */
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+hr {
+    font-weight: bold;
+}
+
+/* Specs grid: two columns (title | details) used on specs.html */
+.grid { 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px;
+}
+
+.spec-title {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* Footer */
+.logo {
+    height: 40px;
+}
